@@ -1,3 +1,0 @@
-DateTime 에서 UnixTime으로 : SELECT UNIX_TIMESTAMP('2009-08-01')
-
-UnixTime에서 DateTime으로 : SELECT FROM_UNIXTIME(1249052400)
