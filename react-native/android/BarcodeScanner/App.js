@@ -19,5 +19,5 @@ export default function App() {
             </StackApp.Navigator>
         </NavigationContainer>
     );
-    
+
 }
