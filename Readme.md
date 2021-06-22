@@ -1,9 +1,7 @@
 <div align=left>
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Flowerkh/Flowerkh)](https://hits.seeyoufarm.com) 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Flowerkh)](https://github.com/anuraghazra/github-readme-stats)
-
 </div>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Flowerkh/Flowerkh)](https://hits.seeyoufarm.com)
 
 Name : KyungHa kim<br/>
 Age : 1992. 09. 25.<br/>
