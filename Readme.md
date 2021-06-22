@@ -14,7 +14,7 @@ Server : centOS, Redhat<br/>
 Framework available : Laravel (5.8), CodeIgniter, XE, godoMall, youngcart(5.0), GNUboard (4,5), Spring (3.0), WIX, Wordpress
 <br/><br/><br/>
 Contect : [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)
-[![Gmail Badge](https://img.shields.io/badge/Microsoft Outlook-0078D4?style=flat-square&logo=Microsoft Outlook&logoColor=white&link=mailto:cdffee1@ntwglobal.com)](mailto:cdffee1@ntwglobal.com)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)
 
 
 
