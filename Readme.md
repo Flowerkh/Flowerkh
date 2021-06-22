@@ -1,6 +1,6 @@
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Flowerkh&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
 
-Name : KyungHa kim<br/>
+Name : KyungHa kim<br/>[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)
 Age : 1992. 09. 25.<br/>
 Positon : development<br/>
 Service :<br/>
