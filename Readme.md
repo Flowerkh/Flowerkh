@@ -1,6 +1,6 @@
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Flowerkh&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
 
-Name : KyungHa kim [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)<br/>
+Name : KyungHa kim <br/>
 Age : 1992. 09. 25.<br/>
 Positon : development<br/>
 Service :<br/>
@@ -10,8 +10,7 @@ Technology available : HTML5, PHP(4 ~ 7), ASP, JSP, JAVA (5.0 ~ 8.0), javascript
 Database : Mysql, Oracle(10,11), MariaDB<br/>
 Server : centOS, Redhat<br/>
 Framework available : Laravel (5.8), CodeIgniter, XE, godoMall, youngcart(5.0), GNUboard (4,5), Spring (3.0), WIX, Wordpress<br/>
-
-
+Contect : [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)
 
 
 
