@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오 로그인</title>
+</head>
+<body>
+    <a href="javascript:void(0);" onclick="Go_kakao()">
+        <img src="../img/kakao_login_medium_wide.png" border="0"/>
+    </a>
+</body>
+<script type="text/javascript">
+    //kakao login
+    function Go_kakao()
+    {
+        var app_key = "";
+        var redirect_uri = "";
+        location.href = "https://kauth.kakao.com/oauth/authorize?client_id=" + app_key + "&redirect_uri=" + redirect_uri + "&response_type=code";
+    }
+</script>
+</html>
