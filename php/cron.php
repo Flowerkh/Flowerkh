@@ -61,7 +61,7 @@ foreach ($procList as $period => $cronList) {
 
         if ($cronList['isLog']) {
             $result = ($result) ? $result : 0;
-            $logList[] = "INSERT INTO `finance`.`cron_log` SET `name`='{$cronList['key']}', `memo`='{$cronList['name']}', `cnt`='{$result}', `regdate`=NOW() ";
+            $logList[] = "INSERT INTO 'log 기록 테이블' SET ~ regdate=NOW() ";
         }
 
         if ($isDev) {
@@ -73,8 +73,7 @@ foreach ($procList as $period => $cronList) {
 }
 
 if (COUNT($logList) > 0) {
-    include "/home/web/finance/site/common/connect.php";
-    include "/home/web/finance/site/develop/function.php";
+    include "/connect.php";
 
     foreach ($logList as $sql) mysql_query($sql, $connect);
 }
