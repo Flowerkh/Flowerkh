@@ -1,0 +1,33 @@
+1. ssh2_auth_agent  -  ssh agent를 사용하여  SSH를 인증합니다.
+2. ssh2_auth_hostbased_file  - 공용 hostkey를 사용하여 인증합니다.
+3. ssh2_auth_none - "none"으로서 인증합니다.
+4. ssh2_auth_password - 일반적은 비밀번호를 사용하여 SSH를 인증합니다.
+5. ssh2_auth_pubkey_file - 공용 키를 사용하여 인증합니다.
+
+6. ssh2_connet - SSH 서버에 접속합니다.
+7. ssh2_exec - 원격 서버에 명령어를 실행합니다.
+8. ssh2_fetch_stream - 확장된 데이터 스트림을 가져옵니다.
+9. ssh2_fingerprint - 원격 서버들로 부터 fingerprint를 복구 합니다.
+10. ssh2_methods_negotiated - negotiated 메소드들의 리스트를 리턴 합니다.
+
+11. ssh2_publickey_add - 인증된 publickey를 추가합니다.
+12. ssh2_publickey_init - publickey 서브시스템을 초기화 합니다.
+13. ssh2_publickey_remove - 인증된 publickey를 제거합니다.
+
+14. ssh2_scp_recv - SCP를 통해 파일을 요청합니다.
+15. ssh2_scp_send - SCP를 통해 파일을 전송합니다.
+
+16. ssh2_sftp_chmod - 파일 모드를 변경합니다.
+17. ssh2_sftp_lstat - 심볼릭 링크의 정보를 보여줍니다.
+18. ssh2_sftp_mkdir - 디렉토리를 생성합니다.
+19. ssh2_sftp_readlink - 심볼릭 링크의 타켓을 리턴 합니다.
+20. ssh2_sftp_realpath - 제공된 경로 문자열의 실제 경로를 결정합니다.
+21. ssh2_sftp_rename - 원격 파일의 이름을 변경합니다.
+22. ssh2_sftp_rmdir - 디렉토리를 제거합니다.
+23. ssh2_sftp_stat - 원격 파일 시스템에서  파일 정보를 보여줍니다.
+24. ssh2_sftp_symlink - 심볼릭 링크를 생성합니다.
+25. ssh2_sftp_unlink - 파일을 삭제합니다.
+26. ssh2_sftp - SFTP 서브시스템을 초기화 합니다.
+
+27. ssh2_shell - 인터렉티브 shell을 요청합니다.
+28. ssh2_tunnel - 원격 서버를 통해 tunnel을 엽니다.
