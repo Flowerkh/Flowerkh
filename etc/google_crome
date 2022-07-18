@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "gecl_login 2.0",
+  "description": "gecl_login",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_popup": "gecl_login.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
