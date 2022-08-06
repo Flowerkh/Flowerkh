@@ -1,3 +1,4 @@
+<?
 $query_arr = array(
     'test1' => $test1,
     'test2' => $test2,
@@ -12,3 +13,5 @@ function change_query_string($arr)
     foreach($arr as $field => $value) $field_vals[] = ($value===NULL) ? "$field=NULL" : "$field='".$value."'";
     return @join(', ', $field_vals);
 }
+
+?>
