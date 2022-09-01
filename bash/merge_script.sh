@@ -11,7 +11,7 @@ git diff --stat master origin/master
 echo -e "\n"
 echo -e "merge 하시겠습니까? (y/n)"
 read yesno
-if ["$yesno" != "y"]; then
+if ["$yesno" != "y"] then
   echo "merge 하지 않았습니다."
   exit 1;
 else
