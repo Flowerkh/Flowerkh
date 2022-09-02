@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="Generator" content="EditPlus®">
+ <meta name="Author" content="">
+ <meta name="Keywords" content="">
+ <meta name="Description" content="">
+ <title>Document</title>
+</head>
+<body>
+<style>
+ .countdown {
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .countdown .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+ }
+ .countdown span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+ }
+</style>
+<div class="countdown" id="countdown1">
+ <span class="timeel days">-</span>
+ <span class="timeel timeRefDays">days</span>
+ <span class="timeel hours">-</span>
+ <span class="timeel timeRefHours">hours</span>
+ <span class="timeel minutes">-</span>
+ <span class="timeel timeRefMinutes">minutes</span>
+ <span class="timeel seconds">-</span>
+ <span class="timeel timeRefSeconds">seconds</span>
+</div>
+<script>
+ window.onload = function() {
+  countDownToTime("Sep 2, 2022 11:21:00", 'countdown1');
+ }
+
+ function countDownToTime(countTo, id) {
+  countTo = new Date(countTo).getTime();
+  var now = new Date(), countTo = new Date(countTo), timeDifference = (countTo - now);
+  var secondsInADay = 60 * 60 * 1000 * 24, secondsInAHour = 60 * 60 * 1000;
+  var Elid = document.getElementById(id);
+
+  if(parseInt(document.getElementsByClassName('seconds')[0].innerHTML)<=0) {
+   Elid.innerText = 'ㅎㅇㅎㅇ';
+   return false;
+  }
+
+  days = Math.floor(timeDifference / (secondsInADay) * 1);
+  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
+  mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
+  secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
+
+  Elid.getElementsByClassName('days')[0].innerHTML = days;
+  Elid.getElementsByClassName('hours')[0].innerHTML = hours;
+  Elid.getElementsByClassName('minutes')[0].innerHTML = mins;
+  Elid.getElementsByClassName('seconds')[0].innerHTML = secs;
+
+  clearTimeout(countDownToTime.interval);
+  countDownToTime.interval = setTimeout(function(){ countDownToTime(countTo, id); },1000);
+ }
+</script>
+</body>
+</html>
