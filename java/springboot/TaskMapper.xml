@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.b2b_api.nhb.mapper.TaskMapper">
+    <insert id="insertQueue">
+        INSERT INTO api_task_log (
+            url,
+            method,
+            data,
+            result,
+            error_message,
+            insert_date
+        ) VALUES (
+                     #{url},
+                     #{method},
+                     #{data},
+                     #{result},
+                     #{errorMessage},
+                     NOW()
+                 )
+    </insert>
+</mapper>
