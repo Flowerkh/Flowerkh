@@ -1,3 +1,9 @@
+package com.b2b_api.nhb.service;
+
+import com.b2b_api.nhb.mapper.TaskMapper;
+import com.b2b_api.nhb.model.QueueInsert;
+import org.springframework.stereotype.Service;
+
 @Service
 public class TaskService {
 
