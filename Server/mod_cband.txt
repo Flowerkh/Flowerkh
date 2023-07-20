@@ -1,0 +1,48 @@
+Apache 설치 후
+
+- mod_cband 모듈 설치
+[root@manage src]# wget http://cband.linux.pl/download/mod-cband-0.9.7.5.tgz
+[root@manage src]# tar xvzfp mod-cband-0.9.7.5.tgz 
+[root@manage src]# cd mod-cband-0.9.7.5
+[root@manage mod-cband-0.9.7.5]# ./configure --with-apxs=/usr/local/apache/bin/apxs
+[root@manage mod-cband-0.9.7.5]# make
+[root@manage mod-cband-0.9.7.5]# make install
+
+- 아파치 httpd.conf > LoadModule cband_module       modules/mod_cband.so 추가 확인
+
+- mod_cband 설정
+아파치 httpd.conf 파일안에
+<IfModule mod_cband.c>
+  <Location /cband-status>
+    SetHandler cband-status
+    Order Deny,Allow
+    Deny from All
+    Allow from 127.0.0.1 100.100.100.100  < 이부분에 허용할 ip를 적으시면 됩니다 전부 허용은 All입니다
+  </Location>
+  <Location /cband-me>
+    SetHandler cband-status-me
+    Order deny,allow
+    Deny from all
+    Allow from all
+  </Location>
+</IfModule>
+
+
+- mod_cband 적용
+* cband 명령어 적용
+<VirtualHost *>
+   ServerName smileserv.com 
+   ServerAlias www.smileserv.com 
+   DocumentRoot /home/smileserv/public_html
+   ErrorLog logs/smileserv-err
+   CustomLog logs/smileserv-acc combined
+   CBandLimit 100Mi
+   CBandPeriod 1D
+</VirtualHost>
+* 위 설정은 smileserv.com 에서 1Day 동안 100M의 트래픽을 허용하겠다는 설정입니다.
+
+
+- 트래픽 사용량 확인
+http://예제.com/cband-status
+http://예제.com/cband-status-me
+
