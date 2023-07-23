@@ -5,10 +5,10 @@
 Name : KyungHa kim <br/>
 Age : 1992. 09. 25.<br/>
 Positon : development<br/>
-Technology available : HTML5, python, react native ,PHP(4 ~ 7), ASP, JSP, JAVA (5.0 ~ 8.0), javascript, jQuery, css3, Linux<br/>
-Database : Mysql, Oracle(10,11), MariaDB, MSsql, MongoDB<br/>
-Server : centOS, Redhat<br/>
-Framework available : Laravel (5.8), CodeIgniter, XE, godoMall, youngcart(5.0), GNUboard (4,5), Spring (3.0), WIX, Wordpress<br/>
+Technology available : HTML5, python, react native ,PHP(4 ~ 8), ASP, JSP, JAVA (5.0 ~ 8.0), javascript, jQuery, css3, Linux<br/>
+Database : Mysql, Oracle(10,11), MariaDB, MSsql, MongoDB, PostgreSql<br/>
+Server : centOS, Redhat, AWS, Naver Cloud, GCP<br/>
+Framework available : Laravel, CodeIgniter, XE, godoMall, youngcart(5.0), GNUboard (4,5), Spring (3.0), SpringBoot 3.1, WIX, Wordpress<br/>
 Service :<br/>
  >> https://kmong.com/gig/146813<br/>
  >> https://kmong.com/gig/226094<br/>
