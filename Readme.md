@@ -16,5 +16,5 @@ Service :<br/>
 
 Contect : [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:qbxlrudgk1@gmail.com)](mailto:qbxlrudgk1@gmail.com)
 [![Outlook Badge](https://img.shields.io/badge/Microsoft%20Outlook-0078D4?style=flat-square&logo=MicrosoftOutlook&logoColor=white&link=mailto:mailto:cdffee1@ntwglobal.com)](mailto:mailto:cdffee1@ntwglobal.com)
-[![insta Badge](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/flowerkh_92/)](https://www.instagram.com/flowerkh_92/)
+[![insta Badge](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/flowerkh_92/)](https://www.instagram.com/xyungxa)
 
